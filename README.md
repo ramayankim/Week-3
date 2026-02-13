@@ -1,12 +1,6 @@
 # Week-3
-while True:
-password = input("Enter a password: ")
-    
-has_letter = any(char.isalpha() for char in password)
-has_number = any(char.isdigit() for char in password)
-    
-if has_letter and has_number:
-   print("Password accepted.")
-   break
-else:
-   print("Invalid password. Try again.")
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print(f"Hello {name}! You are {age} years old.")
